@@ -1,0 +1,57 @@
+<!doctype HTML>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<a href="task_2.html">&lt;-- go to Task 2</a> <a href="task_4.html">go to Task 4 --&gt;</a><br/>
+	<h2>Forms</h2>
+
+	<p>Make form like on pic:</p>
+	<img src="task_3.png" border="1" align="right" style="margin-left: 20px; margin-right: 100px;">
+
+		<form action="#">
+		 Name:<br/>
+		<input type="text" name="username"> <br/><br/>
+		 E-mail:<br/>
+		<input type="email" name="usermail"><br/><br/>
+		 Sex:<br/>
+		<input type="radio" name="usersex" value="male">Male
+		<input type="radio" name="usersex" value="famale">Famale <br/><br/>
+		Current status:<br/>
+		<input type="checkbox" name="status" value="student"> Student <br/>
+		<input type="checkbox" name="status" value="employed"> Employed <br/>
+		<input type="checkbox" name="status" value="unemployed"> Unemployed <br/><br/>
+		Month and Year of birth:<br/>
+		<select name="month">
+			<option value="1">January</option>
+			<option value="2">February</option>
+			<option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+		</select>
+		<select name="year">
+			<option value="1969">19'69</option>
+			<option value="2000">millenium</option>
+			<option value="2007">2007</option>
+			<option value="2017">2k17</option>
+		</select> <br/> <br/>
+		Skills and Technologies:<br/>
+		<select name="skills" multiple size="10">
+			<optgroup label="Tech skills"></optgroup>
+			<option value="html">HTML</option>
+			<option value="css">CSS</option>
+			<option value="js">JavaScript</option>
+			<option value="git">git</option>
+			<optgroup label="Soft skills"></optgroup>
+			<option value="time_man">Time management</option>
+			<option value="proact">Proactivity</option>
+			<option value="team">Teamwork</option>
+			<option value="lead">Leadership</option>
+		</select><br><br>
+		Photo:<br>
+		<input type="file" name="file_foto" accept="image/*"><br><br>
+		Comments:<br>
+		<textarea name="comments" cols="25" rows="4" style="resize: none;"></textarea><br><br>
+		<input type="submit" name="save" active="#">
+		</form>
+</body>
