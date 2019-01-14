@@ -1,0 +1,81 @@
+body {
+    font-family: Verdana, Arial;
+    font-size: 14px;
+    background: #bbcfff;
+}
+h1 {
+    text-align: right;
+    color: #ffa427;
+    text-shadow: 1px 1px 1px black;
+}
+/*Menu for Level_3 tasks*/
+nav .taskmenu {
+    margin: 0;
+    padding: 4px;
+}
+nav .taskmenu > li {
+    display: inline; /* This one doin menu as horisontal */
+    margin-right: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+nav .taskmenu a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+nav .taskmenu li:hover {
+    background-color: #a3a3a3;
+}
+
+#religion {
+    color: #6c82e4;
+}
+p:first-letter {
+    font-size: 24px;
+    color: #ff0000;
+}
+.hotwords {
+    font-family: Georgia,"Times New Roman";
+    color: #ffa427;
+    background: #5c5c5c;
+    font-style: italic;
+}
+h2 {
+    color: #ffa427;
+    text-shadow: 1px 1px 1px black;
+}
+.uls > li > ol{
+    font-weight: bold;
+    margin-left: -30px;
+}
+.uls > li > ol > li {
+    font-weight: normal;
+    margin-left: 30px;
+}
+.redli > li {
+    color: #bd5640;
+}
+.blueli > li {
+    color: #3d39d7;
+}
+.greenli > li {
+    color: #39a653;
+}
+.grayli > li {
+    color: #646464;
+}
+.tablesex {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #b8b8b8;
+}
+#maletab {
+    color: #3d39d7;
+}
+#femaletab {
+    color: #8265a1;
+}
+.tabledata td:not(.tablesex){
+    background-color: #a7c2dc;
+    text-align: center;
+}

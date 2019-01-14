@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Arial;
+    font-size: 14px;
+    background: #bbcfff;
+}
+h1 {
+    text-align: right;
+    color: #ffa427;
+    text-shadow: 1px 1px 1px black;
+}
+/*Menu for Level_3 tasks*/
+nav .taskmenu {
+    margin: 0;
+    padding: 4px;
+}
+nav .taskmenu > li {
+    display: inline; /* This one doin menu as horisontal */
+    margin-right: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+nav .taskmenu a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+nav .taskmenu li:hover {
+    background-color: #a3a3a3;
+}
+.table1{
+    border-bottom: 2px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+}
+.trows td {
+    border-top: 2px solid black;
+}
+.rowq {
+    background: #659cb9;
+}
+.col3 {
+    background: #b980b1;
+}
