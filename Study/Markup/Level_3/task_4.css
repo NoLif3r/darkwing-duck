@@ -8,9 +8,9 @@ h1 {
     color: #ffa427;
     text-shadow: 1px 1px 1px black;
 }
-.notdone {
+.done {
     text-align: center;
-    color: #b2361b;
+    color: #5eb240;
     text-shadow: 1px 1px 1px black;
 }
 /*Menu for Level_3 tasks*/
@@ -31,14 +31,73 @@ nav .taskmenu a {
 nav .taskmenu li:hover {
     background-color: #a3a3a3;
 }
-.tasklist {
-    margin: 0px;
-    padding: 4px;
-}
-div .tasklist> li {
+
+/*Script for hiding*/
+.block{
     display: inline;
 }
-#redgroup:[Red]{
-    color: red;
-    text-decoration: underline;
+[data-target="red"]:checked ~ .wrapper > [data-red],
+[data-target="blue"]:checked ~ .wrapper > [data-blue],
+[data-target="green"]:checked ~ .wrapper > [data-green]
+{
+    display:none;
 }
+/*end of script*/
+
+.redtext {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 3px;
+}
+.bluetext {
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    padding: 3px;
+}
+.greentext {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    padding: 3px;
+}
+label {
+    text-decoration: underline;
+    border: 1px solid black;
+    padding: 3px;
+}
+.chkb {
+    display: none;
+}
+/*buttons*/
+#redlabel {
+    color: rgb(255, 166, 197);
+    background-color: #b2361b;
+}
+#bluelabel {
+    color: rgb(128, 160, 178);
+    background-color: #4255b2;
+}
+#greenlabel {
+    color: rgb(134, 255, 128);
+    background-color: #5eb240;
+}
+
+/*Script for changing color of buttons*/
+[data-target="red"]:checked ~ #redlabel
+{
+    color: rgba(235,71,34,0.55);
+    background-color: #ababab;
+}
+[data-target="blue"]:checked ~ #bluelabel
+{
+    color: rgba(66, 85, 178, 0.51);
+    background-color: #ababab;
+}
+[data-target="green"]:checked ~ #greenlabel
+{
+    color: rgba(69, 178, 44, 0.51);
+    background-color: #ababab;
+}
+/*end of script*/

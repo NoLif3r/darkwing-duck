@@ -16,24 +16,25 @@
     </ul>
 </nav>
 <br>
-<h1 class="notdone">NOT DONE!</h1>
+<h1 class="done">DONE</h1>
 
-<div>
-    <ul class="tasklist">
-        <li><input type="checkbox" name="redchecker" id="redgroup" value="1" title="Red"><label for="redgroup">Red</label></input></li>
-        <li><input type="checkbox" name="greenchecker" id="greengroup" value="2" title="Green"><label for="greengroup">Green</label></input></li>
-        <li><input type="checkbox" name="bluechecker" id="bluegroup" value="3" title="Blue"><label for="bluegroup">Blue</label></input></li>
-        <li><button>Red</button></li>
-        <li><button>Green</button></li>
-        <li><button>Blue</button></li>
-        <li><button>Red</button></li>
-        <li><button>Green</button></li>
-        <li><button>Blue</button></li>
-        <li><button>Red</button></li>
-        <li><button>Green</button></li>
-        <li><button>Blue</button></li>
-        <li><button>Red</button></li>
-    </ul>
+<input class="chkb" type="checkbox" data-target="red" id="redbox">
+<label for="redbox" id="redlabel">Red</label>
+<input class="chkb" type="checkbox" data-target="blue" id="bluebox">
+<label for="bluebox" id="bluelabel">Blue</label>
+<input class="chkb" type="checkbox" data-target="green" id="greenbox">
+<label for="greenbox" id="greenlabel">Green</label>
+<br><br>
+<div class="wrapper">
+    <div class="block redtext" data-red="">Red</div>
+    <div class="block bluetext" data-blue="">Blue</div>
+    <div class="block greentext" data-green="">Green</div>
+    <div class="block redtext" data-red="">Red</div>
+    <div class="block bluetext" data-blue="">Blue</div>
+    <div class="block greentext" data-green="">Green</div>
+    <div class="block redtext" data-red="">Red</div>
+    <div class="block bluetext" data-blue="">Blue</div>
+    <div class="block greentext" data-green="">Green</div>
 </div>
 
 </body>
