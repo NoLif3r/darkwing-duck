@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0930eab3-550b-431a-b40d-d8d0e1258002" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Study/Markup/Level_3/task_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Markup/Level_3/task_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,32 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5284939">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="task_1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="task_2.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="task_3.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.html">
+          <file leaf-file-name="task_1.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_5/task_1.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="527">
-                  <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+                  <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -46,40 +31,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="task_1.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_1.css">
+          <file leaf-file-name="task_1.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_5/task_1.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="62" selection-start-line="62" selection-end-line="97" selection-end-column="5" />
-                  <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
-                  <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="22" />
-                  <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="35" />
-                  <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
-                  <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="4" />
-                  <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="1" />
-                  <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
-                  <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
-                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-                  <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="1" />
-                  <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="task_2.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_2.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="task_3.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+                <state relative-caret-position="460">
+                  <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -124,6 +80,8 @@
         <option value="$PROJECT_DIR$/Study/Markup/Level_4/task_1.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_4/task_3.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_4/task_3.css" />
+        <option value="$PROJECT_DIR$/Study/Markup/Level_5/task_1.html" />
+        <option value="$PROJECT_DIR$/Study/Markup/Level_5/task_1.css" />
       </list>
     </option>
   </component>
@@ -147,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,11 +138,17 @@
               <item name="Markup" type="462c0819:PsiDirectoryNode" />
               <item name="Level_4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="darkwing-duck.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darkwing-duck.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
+              <item name="Markup" type="462c0819:PsiDirectoryNode" />
+              <item name="Level_5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +159,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming\GitHub\darkwing-duck.github.io\Study\Markup\Level_5" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,12 +190,13 @@
       <workItem from="1547368706548" duration="3364000" />
       <workItem from="1547372189653" duration="818000" />
       <workItem from="1547373044697" duration="26299000" />
-      <workItem from="1547805171143" duration="20018000" />
+      <workItem from="1547805171143" duration="20326000" />
+      <workItem from="1548172560372" duration="8794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50499000" />
+    <option name="totallyTimeSpent" value="59601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -234,10 +205,10 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12261905" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5029762" side_tool="true" visible="true" weight="0.16612022" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50357145" side_tool="true" visible="true" weight="0.16612022" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49702382" visible="true" weight="0.16612022" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49642858" visible="true" weight="0.16612022" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -295,6 +266,59 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="62" selection-start-line="62" selection-end-line="97" selection-end-column="5" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="22" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="35" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="4" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="1" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_3/task_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -453,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="1802">
           <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
         </state>
       </provider>
@@ -467,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="136">
           <caret line="62" selection-start-line="62" selection-end-line="97" selection-end-column="5" />
           <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
           <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="22" />
@@ -490,6 +514,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -497,10 +528,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_4/task_3.css">
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_5/task_2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_5/task_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="527">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_5/task_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="93" column="30" lean-forward="true" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
         </state>
       </provider>
     </entry>
