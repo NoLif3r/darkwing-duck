@@ -1,0 +1,30 @@
+.grid-row {
+    display: flex;
+}
+
+.grid-item {
+    flex-shrink: 1;
+    padding: 1px;
+}
+
+.grid-row:nth-child(1) .grid-item:nth-child(1) { flex-grow: 190; }
+.grid-row:nth-child(1) .grid-item:nth-child(2) { flex-grow: 190; }
+.grid-row:nth-child(1) .grid-item:nth-child(3) { flex-grow: 100; }
+
+.grid-row:nth-child(2) .grid-item:nth-child(1) { flex-grow: 190; }
+.grid-row:nth-child(2) .grid-item:nth-child(2) { flex-grow: 250; }
+.grid-row:nth-child(2) .grid-item:nth-child(3) { flex-grow: 190; }
+
+.grid-row:nth-child(3) .grid-item:nth-child(1) { flex-grow: 100; }
+.grid-row:nth-child(3) .grid-item:nth-child(2) { flex-grow: 190; }
+.grid-row:nth-child(3) .grid-item:nth-child(3) { flex-grow: 250; }
+
+.grid-row:nth-child(4) .grid-item:nth-child(1) { flex-grow: 190; }
+.grid-row:nth-child(4) .grid-item:nth-child(2) { flex-grow: 100; }
+.grid-row:nth-child(4) .grid-item:nth-child(3) { flex-grow: 190; }
+
+.grid img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
