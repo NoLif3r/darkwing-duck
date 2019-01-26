@@ -1,3 +1,14 @@
+body{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+.grid
+{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
 .grid-row {
     display: flex;
 }
@@ -27,4 +38,43 @@
     width: 100%;
     height: auto;
     vertical-align: middle;
+}
+
+.final-lvl {
+    position: relative;
+}
+#final-boss {
+    position: absolute;
+    top: 18%;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+
+    width: 80%;
+    flex-grow: 190;
+
+}
+
+.grid-item{
+    border: 5px solid black;
+    outline-offset: -20px;
+    /*box-sizing: border-box;*/
+}
+.grid-item:hover {
+    animation-name: border-animation;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border-animation {
+    from {
+        border: solid 5px white;
+        outline-offset: -20px;
+    }
+
+    to {
+        border: solid 5px black;
+        outline-offset: -20px;
+        /*box-sizing: border-box;*/
+    }
 }
