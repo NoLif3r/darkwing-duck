@@ -17,6 +17,7 @@ nav
     background-color: #721d9b;
     /*width: 100%;*/
     display: flex;
+    position: relative;
     /*margin-top: -16px;*/
     /*padding: 0;*/
 }
@@ -30,14 +31,10 @@ a
 {
     text-decoration: none;
 }
-/*a:hover*/
-/*{*/
-/*color: black;*/
-/*}*/
+
 nav li
 {
     display: inline-block;
-    /*position: relative;*/
     /*margin: auto 50px;*/
     /*!*border: 1px solid black;*!*/
 }
@@ -65,51 +62,58 @@ nav li a:hover
 
 #morebutton  {    margin-right: auto; }
 
-.contextmenu
-{
+.contextmenu {
     display: none;
     /*visibility: hidden;*/
-    background-color: black;
-    width: 100%;
-    margin: auto;
-    text-align: center;
+    background-color: #9e92ee;
+
+    /*margin: auto;*/
+
     position: absolute;
-    width: 100%;
-    top: 33px;
+    margin-left: auto;
+    top: 35px;
     left: 0;
-
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
-.contextmenu li
+.contextmenu > ul
+{
+    margin-left: 0;
+    text-align: left;
+    width: auto;
+}
+.contextmenu ul li
 {
     display: inline-block;
 }
 
-.contextmenu li a
+.contextmenu ul li a
 {
     display: inline-block;
-    font-family: Economica;
-    font-weight: bold;
-    font-size: 22px;
+    font-family: "Calibri Light";
+    font-weight: normal;
+    font-size: 18px;
     color: aliceblue;
-    text-transform: uppercase;
-    padding: 5px;
+    text-transform: none;
+    padding: 7px;
     margin: 0 5px;
+    text-align: left;
+}
+.contextmenu ul li a:hover {
+    border: none;
+    color: black;
 }
 
-li:hover ul.contextmenu
+nav > ul > li:hover .contextmenu
 {
     display: flex;
 }
 
 
 
-
-
-
-
 /*menu for task map*/
 .taskmenu {
-    margin: 0;
+    margin-left: 15px;
     padding: 4px;
 }
 .taskmenu > li {
