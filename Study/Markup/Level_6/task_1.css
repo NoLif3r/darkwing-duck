@@ -190,8 +190,8 @@ h1 {
 .card-right{
     border-radius: 0 5px 5px 0;
     margin-left: -3px;
-    background-color: #37c2d3;
-    border-color: #37c2d3;
+    background-color: #1cb79a;
+    border-color: #1cb79a;
     box-shadow: 2px 0 10px -1px rgba(0, 0, 0, 0.5), inset 7px 0 15px -10px rgba(0, 0, 0, 1);
 }
 .card-right > div > p {
