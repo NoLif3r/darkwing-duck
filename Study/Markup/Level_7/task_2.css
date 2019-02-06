@@ -1,0 +1,159 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Economica, Arial;
+    background-color: #cdcceb;
+}
+
+h1 {
+    text-align: left;
+    color: #8557ba;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 10px;
+}
+
+/*menu for task map*/
+.taskmenu {
+    margin-left: 15px;
+    padding: 4px;
+}
+.taskmenu > li {
+    display: inline; /* This one doin menu as horisontal */
+    margin-right: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+.taskmenu a {
+    color: #5c5c5c;
+    text-decoration: none;
+}
+.active_task{
+    border-bottom: 2px solid black;
+    background-color: #721d9b;
+    color: white;
+}
+.active_task a {
+    color: white;
+}
+.taskmenu li:hover {
+    background-color: #a3a3a3;
+    color: #5c5c5c;
+}
+.taskmenu a:hover {
+    color: #5c5c5c;
+}
+
+.page-holder{
+    min-width: 1400px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #6c82e4;
+    box-shadow: 0 0 10px black;
+}
+/*HEADER STYLES*/
+header{
+    width: 100%;
+    height: 116px;
+    background-color: white;
+}
+.logo-head{
+    display: inline-block;
+    float: left;
+    font-family: "Caviar Dreams";
+    padding: 40px 0 0 180px;
+}
+.logo-head a{
+    text-decoration: none;
+}
+.logo-head a span:nth-child(1){
+    font-size: 36px;
+    color: #ee8129;
+}
+.logo-head a span:nth-child(2){
+    font-size: 36px;
+    font-weight: bold;
+    color: #3070a8;
+}
+.main-menu{
+    display: inline-block;
+    float: right;
+}
+.main-menu ul {
+    margin-right: 180px;
+    margin-top: 65px;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+
+}
+.main-menu ul li a{
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: #989898;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    padding: 20px 15px 28px 15px;
+}
+
+.main-menu ul li  a:hover {
+    border-bottom: 4px solid #3070a8;
+    color: #3070a8;
+}
+/*BLOCK-1 STYLES*/
+.block-1{
+    width: 100%;
+    position: relative;
+    height: 585px;
+    background-image: url("../Projects/img/block-1.png");
+    color: white;
+    text-align: center;
+}
+.block-1 span:nth-child(1){
+    display: block;
+    font-family: "Caviar Dreams";
+    font-size: 36px;
+    padding-top: 150px;
+}
+.block-1 span:nth-child(2){
+    display: block;
+    font-family: "Caviar Dreams";
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.block-1 span:nth-child(3){
+    display: inline-block;
+    font-family: "Calibri";
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 20px;
+}
+.block-1 button{
+    margin: 45px auto;
+    display: block;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255,255, 0.5);
+    border-radius: 2px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.block-1 button:hover {
+    background-color: rgba(255,255,255, 0.25);
+    color: #ccd7ff;
+    box-shadow: 0 0 6px 1px rgba(250, 250, 250, 0.3);
+    cursor: pointer;
+}
+.block-1 button:active{
+    box-shadow: inset 0 0 6px 1px rgba(250, 250, 250, 0.3);
+}
