@@ -9,7 +9,7 @@ body{
     min-width: 1400px;
     max-width: 1400px;
     margin: 0 auto;
-    background-color: #6c82e4;
+    /*background-color: #6c82e4;*/
     box-shadow: 0 0 10px black;
 }
 /*HEADER STYLES*/
@@ -241,4 +241,370 @@ header{
 }
 .block-3-list > li:nth-child(2){
     color: #3070a8;
+}
+/*block 4 styles*/
+/*buy card styles*/
+.offers{
+    min-width: 900px;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 67px 0 67px 0;
+}
+.offers-title{
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #41525c;
+    min-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.cards {
+    min-width: max-content;
+    max-width: 0;
+    margin: 0 auto;
+}
+.card {
+    font-family: "Trebuchet MS";
+    width: 296px;
+    background-color: #ee8129;
+    border-color: #ee8129;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.card p {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.card-content {
+    background-color: white;
+    padding: 17px;
+    margin: 4px 4px 0 4px;
+    border-bottom: 4px solid #ee8129;
+    outline-offset: -4px;
+    text-align: center;
+}
+.card-name {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 12px;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
+.card-price {
+    position: relative;
+    color: #35495a;
+}
+.card-price .dollar-symbol
+{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top:5px;
+    left: 60px;
+
+}
+.card-price .prise-number {
+    font-size: 72px;
+    font-weight: bold;
+    padding-right: 27px;
+    letter-spacing: -5px;
+}
+.card-price .time-rent {
+    font-size: 18px;
+    position: absolute;
+    bottom: 2px;
+    right: 40px;
+}
+.card-infobox {
+    color: #888c94;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.card-infobox > ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+.card-infobox > ul > li {
+    margin-top: 1px;
+    padding-top: 7px;
+    margin-bottom: 1px;
+    padding-bottom: 7px;
+}
+.card-infobox > ul > li:nth-child(odd) {
+    background-color: #dde2ff;
+}
+.card-infobox > ul > li:nth-child(even) {
+    background-color: #f3e6ff;
+}
+.list-marker {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.buy {
+    padding: 10px 70px;
+    background-color: #ee8129;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-color: #ee8129;
+    border-radius: 5px;
+    border-bottom-width: 3px;
+    border-right: transparent;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.card-right, .card-left {
+    width: 292px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+.card-left{
+    border-radius: 5px 0 0 5px;
+    margin-right: -3px;
+    background-color: #37c2d3;
+    border-color: #37c2d3;
+}
+.card-left > div > p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.card-left .buy, .card-right .buy{
+    margin-bottom: 0;
+    background-color: #3371a6;
+    border-color: #3371a6;
+}
+.card-right{
+    border-radius: 0 5px 5px 0;
+    margin-left: -3px;
+    background-color: #1cb79a;
+    border-color: #1cb79a;
+    box-shadow: 2px 0 10px -1px rgba(0, 0, 0, 0.5), inset 7px 0 15px -10px rgba(0, 0, 0, 1);
+}
+.card-right > div > p {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.card-right .card-content, .card-left .card-content{
+    border-bottom: 0 solid;
+    border-color: #37c2d3;
+    margin: 4px 0 0 0;
+}
+.card-left .card-content {
+    border-radius: 0 0 0 5px;
+}
+.card-right .card-content{
+    border-radius: 0 0 5px 0;
+    box-shadow: inset 7px 0 15px -10px rgba(0, 0, 0, 1);
+}
+
+.card-mid{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+
+/*block 5 styles (testimonials)*/
+.comments-container{
+    height: 315px;
+    background-image: url("img/block-5.png");
+}
+.comments-title{
+    max-width: fit-content;
+    min-width: 1000px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-bottom: 50px;
+}
+.comments-title span:nth-child(1){
+    font-family: "Futura Bk BT";
+    color: #ee8129;
+}
+.comments-title span:nth-child(2){
+    color: #3170a8;
+    font-family: "Futura Md BT";
+    font-weight: bold;
+}
+.comments-in{
+    font-family: "Open Sans";
+    max-width: fit-content;
+    min-width: 1040px;
+    margin: 0 auto;
+}
+.comment{
+    display: inline-block;
+    width: fit-content;
+    font-size: 12px;
+    height: 100px;
+    margin: 0 auto;
+}
+.comment img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.comment-content{
+    display: inline-block;
+    position: relative;
+    width: 364px;
+    height: 98px;
+    margin: 0 auto;
+    background-color: #fff;
+    vertical-align: top;
+    margin-left: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #e0e0e0;
+}
+/*triangle from comment-content*/
+
+.comment-content::before, .comment-content::after {
+    content: '';
+    position: absolute;
+    left: -40px; bottom: 25px;
+    border: 20px solid transparent;
+    border-right: 20px solid #e0e0e0;
+}
+.comment-content::after {
+    border-right: 20px solid white;
+    left: -38px;
+    bottom: 25px;
+}
+
+.comment-name{
+    display: inline-block;
+    color: #1cb79a;
+    font-style: italic;
+    margin: 13px 0 0 14px;
+}
+.comment-rank {
+    display: block;
+    font-style: italic;
+    color: #1cb79a;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -16px;
+}
+.comment-text{
+    display: block;
+    color: #666666;
+    margin: 12px 18px 0 19px ;
+    padding: 10px 22px 0 3px;
+    border-top: 1px dotted black;
+    line-height: 1.5;
+}
+.comment-1{
+    margin-right: 43px;
+}
+/*block 6*/
+.block-6{
+    height: 350px;
+}
+.block-6-left-wrap{
+    display: inline-block;
+    width: 505px;
+    margin-left: 188px;
+}
+.block-6-contacts-list{
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #666666;
+}
+.block-6-contacts-list > ul{
+    list-style: none;
+}
+.block-6-contacts-list > ul > .contact-list-item{
+    margin-bottom: -25px;
+}
+
+.contact-address-list-item{
+    margin-top: 10px;
+    margin-left: 62px;
+}
+.block-6-contacts-list > ul> li > div > i{
+    color: #3070a8;
+    font-size: 30px;
+}
+.block-6-contacts-list > ul > li >span{
+    margin-left: 33px;
+}
+.fa-map-marker-alt{
+    position: relative;
+    top: 10px;
+}
+.fa-envelope{
+    position: relative;
+    bottom: -6px;
+}
+.block-6-social{
+    margin-top: 55px;
+    margin-left: 35px;
+}
+.block-6-social > i{
+    font-size: 45px;
+    margin-right: 23px;
+    position: relative;
+    bottom: 20px;
+}
+.icon-in-contacts{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+}
+.fa-facebook {
+    color: #4967a9;
+}
+.fa-twitter-square{
+    color: #1ab2e8;
+}
+.fa-linkedin{
+    color: #007ab9;
+}
+.block-6-map{
+    display: inline-block;
+    text-align: right;
+    width: 700px;
+    height: 349px;
+    background-image: url("img/block-6-map.png");
+    background-origin: content-box;
+    background-size: 110%;
+}
+/*block 7*/
+.block-7{
+    position: relative;
+    width: 100%;
+    height: 104px;
+    background-color: #3070a8;
+}
+.block-7 > p{
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.block-7 > p:nth-child(1){
+    padding-top: 30px;
+}
+.block-7 > p > a{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.block-7 > p > a:hover{
+    text-decoration: underline;
 }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0930eab3-550b-431a-b40d-d8d0e1258002" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/Markup/Level_6/task_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Markup/Level_6/task_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/Markup/Projects/project_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Markup/Projects/project_1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/Markup/Projects/project_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study/Markup/Projects/project_1.html" afterDir="false" />
     </list>
@@ -20,12 +21,20 @@
           <file leaf-file-name="project_1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Study/Markup/Projects/project_1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="94" column="152" selection-start-line="94" selection-start-column="152" selection-end-line="94" selection-end-column="152" />
+                <state relative-caret-position="480">
+                  <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -38,8 +47,8 @@
           <file leaf-file-name="project_1.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Study/Markup/Projects/project_1.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="647">
-                  <caret line="237" column="24" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+                <state relative-caret-position="242">
+                  <caret line="555" column="18" lean-forward="true" selection-start-line="555" selection-start-column="18" selection-end-line="555" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -90,7 +99,6 @@
         <option value="$PROJECT_DIR$/Study/Markup/Level_5/task_2.css" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_6/task_1.css" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_6/task_1.html" />
-        <option value="$PROJECT_DIR$/Study/Markup/Level_6/task_2.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_6/task_2.css" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_7/Task_1.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_7/Task_1.css" />
@@ -102,6 +110,7 @@
         <option value="$PROJECT_DIR$/Study/Markup/Level_8/task_1.css" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_8/task_2.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Level_8/task_2.css" />
+        <option value="$PROJECT_DIR$/Study/Markup/Level_6/task_2.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Projects/project_1.html" />
         <option value="$PROJECT_DIR$/Study/Markup/Projects/project_1.css" />
       </list>
@@ -127,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,14 +160,7 @@
               <item name="darkwing-duck.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Study" type="462c0819:PsiDirectoryNode" />
               <item name="Markup" type="462c0819:PsiDirectoryNode" />
-              <item name="Level_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="darkwing-duck.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkwing-duck.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="Markup" type="462c0819:PsiDirectoryNode" />
-              <item name="Level_8" type="462c0819:PsiDirectoryNode" />
+              <item name="Level_6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="darkwing-duck.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -178,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,12 +235,13 @@
       <workItem from="1549901784231" duration="13712000" />
       <workItem from="1550006828832" duration="600000" />
       <workItem from="1550093934263" duration="5416000" />
-      <workItem from="1550402167183" duration="6823000" />
+      <workItem from="1550402167183" duration="7372000" />
+      <workItem from="1550671752552" duration="10876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167339000" />
+    <option name="totallyTimeSpent" value="178764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -247,10 +250,10 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12261905" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.510119" side_tool="true" visible="true" weight="0.16612022" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5107143" side_tool="true" visible="true" weight="0.16612022" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48988095" visible="true" weight="0.16612022" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4892857" visible="true" weight="0.16612022" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -519,41 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-end-line="92" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="180" column="19" selection-end-line="215" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_3/task_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -607,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="23" column="37" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +595,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="91" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="215" column="1" lean-forward="true" selection-start-line="45" selection-end-line="215" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_8/task_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Level_8/task_2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
+        <state relative-caret-position="636">
           <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding>
             <element signature="e#103#207#0" />
@@ -647,32 +646,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_8/task_2.html">
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+        <state relative-caret-position="1684">
+          <caret line="131" column="1" lean-forward="true" selection-start-line="45" selection-end-line="131" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Markup/Level_6/task_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Projects/project_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="94" column="152" selection-start-line="94" selection-start-column="152" selection-end-line="94" selection-end-column="152" />
+        <state relative-caret-position="480">
+          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/Markup/Projects/project_1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="237" column="24" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
+        <state relative-caret-position="242">
+          <caret line="555" column="18" lean-forward="true" selection-start-line="555" selection-start-column="18" selection-end-line="555" selection-end-column="18" />
         </state>
       </provider>
     </entry>
