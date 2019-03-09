@@ -1,0 +1,1 @@
+alert('this script is running from "task_2.js"');
