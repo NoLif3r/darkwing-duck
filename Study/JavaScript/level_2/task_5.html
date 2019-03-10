@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5</title>
+</head>
+<body style="font-family: monospace">
+<script>
+    var name = prompt('enter name'), text;
+    name == 'admin'?text='Hi there!':
+        name == 'manager'?text='Hello, mister.':
+            name == ''?text='No login':
+                text='';
+    alert(text);
+</script>
+    <h3>in this task we have short of this code:</h3>
+    <p>
+        var name, text;<br>
+        name = prompt('enter name');<br><br>
+
+        if (name == 'admin') {<br>
+        text = 'Hi';<br>
+        } else if (name == 'manager') {<br>
+        text = 'Hello';<br>
+        } else if (name == '') {<br>
+        text = 'No login';<br>
+        } else {<br>
+        text = '';<br>
+        }<br>
+        alert(text);<br>
+    </p>
+    <h3>short ver:</h3>
+    <p>
+        var name = prompt('enter name'), text;<br>
+        name == 'admin'?text='Hi there!':<br>
+        name == 'manager'?text='Hello, mister.':<br>
+        name == ''?text='No login':<br>
+        text='';<br>
+        alert(text);<br>
+    </p>
+</body>
+</html>
