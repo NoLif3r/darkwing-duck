@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Task 5</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
 </head>
-<body style="font-family: monospace">
+<body>
 <script>
-    var name = prompt('enter name'), text;
+    var name = prompt('enter name:','admin/manager/or left it empty'), text;
     name == 'admin'?text='Hi there!':
         name == 'manager'?text='Hello, mister.':
             name == ''?text='No login':
                 text='';
     alert(text);
 </script>
-    <h3>in this task we have short of this code:</h3>
+    <h3>SCRIPT#1. short_ver_code:</h3>
+    <h4>before:</h4>
     <p>
         var name, text;<br>
         name = prompt('enter name');<br><br>
@@ -29,14 +40,16 @@
         }<br>
         alert(text);<br>
     </p>
-    <h3>short ver:</h3>
+    <h3>after:</h3>
     <p>
         var name = prompt('enter name'), text;<br>
-        name == 'admin'?text='Hi there!':<br>
-        name == 'manager'?text='Hello, mister.':<br>
+        name == '<b>admin</b>'?text='Hi there!':<br>
+        name == '<b>manager</b>'?text='Hello, mister.':<br>
         name == ''?text='No login':<br>
         text='';<br>
         alert(text);<br>
     </p>
+    <a href="task_1.html"><< first</a>
+    <a href="../level_3/task_1.html">level_3>></a>
 </body>
 </html>

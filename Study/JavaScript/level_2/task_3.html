@@ -3,33 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Task 3</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
 </head>
 <body>
-<h3>task details:</h3>
-login: admin <br>
-password: passw0rd
-<script>
-var login;
-var password;
-login = prompt('Enter your login:', 'user');
-if (login == 'admin') {
-    password = prompt('Enter your password: ', 'password');
-    if (password == 'passw0rd') {
-        alert('Welcome Home!')
+    <script>
+    var login;
+    var password;
+    login = prompt('Enter your login:', 'user');
+    if (login == 'admin') {
+        password = prompt('Enter your password: ', 'password');
+        if (password == 'passw0rd') {
+            alert('Welcome Home!')
+        }
+        else if (password == null) {
+            alert('Canceled')
+        }
+        else {
+            alert('Wrong password!')
+        }
     }
-    else if (password == null) {
-        alert('Canceled')
+    else if (login == null){
+        alert('Canceled');
     }
-    else {
-        alert('Wrong password!')
+    else{
+        alert('Access denied')
     }
-}
-else if (login == null){
-    alert('Canceled');
-}
-else{
-    alert('Access denied')
-}
-</script>
+    </script>
+<h3>SCRIPT#1. simple_authorization:</h3>
+<p>
+    var login;<br>
+    var password;<br>
+    login = prompt('Enter your login:', 'user');<br>
+    if (login == '<b>admin</b>') {<br>
+    password = prompt('Enter your password: ', 'password');<br>
+    if (password == '<b>passw0rd</b>') {<br>
+    alert('Welcome Home!')<br>
+    }<br>
+    else if (password == null) {<br>
+    alert('Canceled')<br>
+    }<br>
+    else {<br>
+    alert('Wrong password!')<br>
+    }<br>
+    }<br>
+    else if (login == null){<br>
+    alert('Canceled');<br>
+    }<br>
+    else{<br>
+    alert('Access denied')<br>
+    }<br>
+</p>
+<a href="task_4.html">next >></a>
 </body>
 </html>

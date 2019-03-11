@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Task 2</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
 </head>
 <body>
 <script>
     var number = prompt('enter any number from minus infinity to infinity');
     if (number < 0){
-        alert(-1);
+        alert('You entered negative number!');
     }
     else if (number == 0){
-        alert(0);
+        alert('You entered "zero"');
     }
     else if (number > 0){
-        alert(1);
+        alert('You entered positive number!\nLooks like ur optimist.. or just too lazy to put minus');
     }
 </script>
-<h3>list of cases in this task:</h3>
-<span>if u entered any positive number - u will get "1"</span> <br>
-<span>if u entered any negative number - u will get "-1"</span> <br>
-<span>if u entered zero - u will get "0"</span>
+<h3>SCRIPT#1. if-else_if:</h3>
+<p>
+    var number = prompt('enter any number from minus infinity to infinity');<br>
+    if (number < 0){<br>
+    alert('You entered negative number!');<br>
+    }<br>
+    else if (number == 0){<br>
+    alert('You entered "zero"');<br>
+    }<br>
+    else if (number > 0){<br>
+    alert('You entered positive number!\nLooks like ur optimist.. or just too lazy to put minus');<br>
+    }<br>
+</p>
+<a href="task_3.html">next >></a>
 </body>
 </html>
