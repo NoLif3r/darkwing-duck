@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    var square = '';
+    var size = +prompt('Enter size of chess board you want:','recomended: 8 or more')
+    for (var i=1; i <= size; i++) {
+        for (var j=1; j<=size/2; j++){
+            square = square+'# ';
+        }
+        if(i%2){
+            console.log(' '+square);
+            square = '';
+        }
+        else{
+            console.log(square);
+            square = '';
+        }
+    }
+</script>
+<h3>SCRIPT#1. ChessBoard:</h3>
+<p>
+    var square = '';<br>
+    var size = +prompt('Enter size of chess board you want:','recomended: 8 or more')<br>
+    for (var i=1; i <= size; i++) {<br>
+    for (var j=1; j<=size/2; j++){<br>
+    square = square+'# ';<br>
+    }<br>
+    if(i%2){<br>
+    console.log(' '+square);<br>
+    square = '';<br>
+    }<br>
+    else{<br>
+    console.log(square);<br>
+    square = '';<br>
+    }<br>
+    }<br><br>
+    ...check out your console!
+</p>
+</body>
+</html>

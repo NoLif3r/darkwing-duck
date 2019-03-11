@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 6</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    var x,n,r;
+    x=prompt('This is pow function "x^n".\nEnter first number:','2');
+    n=prompt('Enter second number:','3')
+    function pow(x,n){
+        var result=x;
+        for(var i=1; i<n; i++){
+            result = result*x;
+        }
+        return result;
+    }
+    r = pow(x,n);
+    alert('The result is:\n'+x+'^'+n+' = '+r);
+</script>
+<h3>SCRIPT#1. pow_function:</h3>
+<p>
+    var x,n,r;<br>
+    x=prompt('This is pow function "x^n".\nEnter first number:','2');<br>
+    n=prompt('Enter second number:','3')<br>
+    function pow(x,n){<br>
+    var result=x;<br>
+    for(var i=1; i < n; i++){<br>
+    result = result*x;<br>
+    }<br>
+    return result;<br>
+    }<br>
+    r = pow(x,n);<br>
+    alert('The result is:\n'+x+'^'+n+' = '+r);<br>
+</p>
+</body>
+</html>

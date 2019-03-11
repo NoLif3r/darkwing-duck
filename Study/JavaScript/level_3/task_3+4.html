@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3 and 4</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    console.log('******** FizzBuzz_1 start: ********')
+    for (var i = 1; i<=100; i++){
+        if (i % 3 == 0){
+            console.log('Fizz');
+        }
+        else if (i % 5 == 0 && i % 3 != 0){
+            console.log('Buzz');
+        }
+        else {
+            console.log(i);
+        }
+    }
+</script>
+    <h3>SCRIPT#1. FizzBuzz_1:</h3>
+    <p>
+        for (var i = 1; i<=100; i++){<br>
+        if (i % 3 == 0){<br>
+        console.log('Fizz');<br>
+        }<br>
+        else if (i % 5 == 0 && i % 3 != 0){<br>
+        console.log('Buzz');<br>
+        }<br>
+        else {<br>
+        console.log(i);<br>
+        }<br>
+        }<br>
+    </p>
+<script>
+    console.log('******** FizzBuzz_2 start: ********')
+    for (var i = 1; i<=100; i++){
+        if (i % 3 == 0 && i % 5 !=0){
+            console.log('Fizz');
+        }
+        else if (i % 5 == 0 && i % 3 == 0){
+            console.log('FizzBuzz');
+        }
+        else if(i % 5 == 0){
+            console.log('Buzz')
+        }
+        else {
+            console.log(i);
+        }
+    }
+</script>
+    <h3>SCRIPT#2. FizzBuzz_2:</h3>
+    <p>
+        for (var i = 1; i<=100; i++){<br>
+        if (i % 3 == 0 && i % 5 !=0){<br>
+        console.log('Fizz');<br>
+        }<br>
+        else if (i % 5 == 0 && i % 3 == 0){<br>
+        console.log('FizzBuzz');<br>
+        }<br>
+        else if(i % 5 == 0){<br>
+        console.log('Buzz')<br>
+        }<br>
+        else {<br>
+        console.log(i);<br>
+        }<br>
+        }<br>
+    </p>
+</body>
+</html>

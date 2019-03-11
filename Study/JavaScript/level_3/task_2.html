@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    nextPrime:
+        for (var i = 2; i <= 10; i++) {
+            for (var j = 2; j < i; j++) {
+                if (i % j == 0) continue nextPrime;
+            }
+
+            alert('Prime number: ' + i );
+        }
+</script>
+<h3>SCRIPT#1. Prime Number generator:</h3>
+<p>
+    nextPrime: <br>
+    for (var i = 2; i <= 10; i++) {<br>
+    for (var j = 2; j < i; j++) {<br>
+    if (i % j == 0) continue nextPrime;<br>
+    }<br><br>
+
+    alert('Prime number: ' + i );<br>
+    }<br>
+</p>
+</body>
+</html>
