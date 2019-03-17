@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function fac(n) {
+        if(n != 1){
+            return n * fac(n - 1);
+        }
+        else{
+            return n;
+        }
+    }
+    var n = prompt('Enter number: ','3');
+    alert('Factiorial of ' + n + ' = ' + fac(n));
+</script>
+<h3>SCRIPT#1. Factorial:</h3>
+<p>
+    function fac(n) {<br>
+    if(n != 1){<br>
+    return n * fac(n - 1);<br>
+    }<br>
+    else{<br>
+    return n;<br>
+    }<br>
+    }<br>
+    var n = prompt('Enter number: ','3');<br>
+    alert('Factiorial of ' + n + ' = ' + fac(n));<br>
+</p>
+<a href="task_3.html">next >></a>
+</body>
+</html>

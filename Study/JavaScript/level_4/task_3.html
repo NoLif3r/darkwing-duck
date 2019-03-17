@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function checkSpam(str){
+        var strIn = str.toLowerCase();
+        console.log(strIn);
+        if(strIn.indexOf('sex') >= 0){
+            return true;
+        }
+        else if (strIn.indexOf('spam') >= 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    console.log(checkSpam('get new Sex videos'));
+    console.log(checkSpam('[SPAM] How to earn fast money?'));
+    console.log(checkSpam('New PSD template'));
+</script>
+
+<h3>SCRIPT#1. Spam_check:</h3>
+<p>
+    function checkSpam(str){<br>
+    var strIn = str.toLowerCase();<br>
+    console.log(strIn);<br>
+    if(strIn.indexOf('sex') >= 0){<br>
+    return true;<br>
+    }<br>
+    else if (strIn.indexOf('spam') >= 0){<br>
+    return true;<br>
+    }<br>
+    else{<br>
+    return false;<br>
+    }<br>
+    }<br><br>
+    check out console...<br>
+</p>
+<a href="task_4.html">next >></a>
+</body>
+</html>

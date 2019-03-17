@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function fib(n) {
+        if(n <= 1){
+            return n;
+        }
+        else{
+            return fib(n - 2)+fib(n-1);
+        }
+    }
+    n = prompt('Enter number:', '7');
+    alert('Fibonacci number of '+n+' = ' + fib(n));
+</script>
+<h3>SCRIPT#1. Fibonacci number:</h3>
+<p>
+    function fib(n) {<br>
+    if(n <= 1){<br>
+    return n;<br>
+    }<br>
+    else{<br>
+    return fib(n - 2)+fib(n-1);<br>
+    }<br>
+    }<br>
+    n = prompt('Enter number:', '7');<br>
+    alert('Fibonacci number of '+ n +' = ' + fib(n));<br>
+</p>
+<a href="task_2.html">next >></a>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function truncate(str, max_length){
+        if (str.length > max_length){
+            return str.substr(0,max_length) + '...';
+        }
+        else{
+            return str;
+        }
+    }
+
+    var text_1 = prompt('Enter some text:','This is example text, you can left it if you wanna.')
+    var length = prompt('Enter how many symbols of text you whant to left. \nOther will be cut off.', '15');
+    alert(truncate(text_1, length));
+</script>
+<h3>SCRIPT#1. Text_cut:</h3>
+<p>
+    function truncate(str, max_length){<br>
+    if (str.length > max_length){<br>
+    return str.substr(0,max_length) + '...';<br>
+    }<br>
+    else{<br>
+    return str;<br>
+    }<br>
+    }<br><br>
+
+    var text_1 = prompt('Enter some text:','This is example text, you can left it if you wanna.')<br>
+    var length = prompt('Enter how many symbols of text you whant to left. \nOther will be cut off.', '15');<br>
+    alert(truncate(text_1, length));<br>
+</p>
+<a href="task_1.html"><< first</a>
+</body>
+</html>
