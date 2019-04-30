@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    var arr = [];
+
+    while (true) {
+        var newElement = prompt('Enter a number: ', '2');
+        if (newElement === '' || isNaN(newElement) || newElement === null){
+            break;
+        }
+        arr.push(+newElement);
+    }
+
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    alert('sum of your numbers: ' + sum);
+</script>
+
+<h3>SCRIPT#1. SUMMED_NUMBERS:</h3>
+<p>
+    var arr = [];<br><br>
+
+    while (true) {<br>
+    var newElement = prompt('Enter a number: ', '2');<br>
+    if (newElement === '' || isNaN(newElement) || newElement === null){<br>
+    break;<br>
+    }<br>
+    arr.push(+newElement);<br>
+    }<br><br>
+
+    var sum = 0;<br>
+    for (var i = 0; i < arr.length; i++){<br>
+    sum += arr[i];<br>
+    }<br>
+    alert('sum of your numbers: ' + sum);<br><br>
+</p>
+<a href="task_4.html">next >></a>
+</body>
+</html>

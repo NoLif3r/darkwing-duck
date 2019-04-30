@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #2e2e2e;
+            color: #5eb240;
+        }
+        a{
+            color: #5eb240;
+        }
+    </style>
+</head>
+<body>
+<script>
+    // before
+    var menu = {
+        width: 200,
+        height: 300,
+        title: "My menu"
+    };
+
+    logObject(menu);
+    multiplyNumeric(menu);
+    logObject(menu);
+
+    // after
+    // menu = {
+    //   width: 400,
+    //   height: 600,
+    //   title: "My menu"
+    // };
+
+    function multiplyNumeric(obj){
+        for (var num in obj){
+            if (isNumeric(obj[num]) == true){
+                obj[num] = obj[num]*2;
+            }
+        }
+    }
+
+    function isNumeric(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n)
+    }
+
+    function logObject(obj){
+        for (var key in obj){
+            console.log(key + ' = ' + obj[key]);
+        }
+    }
+</script>
+
+<h3>SCRIPT#1. DOUBLE_THE_NUMBERS:</h3>
+<p>
+    // before <br>
+    var menu = {<br>
+    width: 200,<br>
+    height: 300,<br>
+    title: "My menu"<br>
+    };<br><br>
+
+    logObject(menu);<br>
+    multiplyNumeric(menu);<br>
+    logObject(menu);<br><br>
+
+    // after<br>
+    // menu = {<br>
+    //   width: 400,<br>
+    //   height: 600,<br>
+    //   title: "My menu"<br>
+    // };<br><br>
+
+    function multiplyNumeric(obj){<br>
+    for (var num in obj){<br>
+    if (isNumeric(obj[num]) == true){<br>
+    obj[num] = obj[num]*2;<br>
+       }<br>
+      }<br>
+    }<br>
+
+    function isNumeric(n) {<br>
+    return !isNaN(parseFloat(n)) && isFinite(n)<br>
+    }<br>
+
+    function logObject(obj){<br>
+    for (var key in obj){<br>
+    console.log(key + ' = ' + obj[key]);<br>
+    }<br>
+    }<br>
+
+    Check out console...
+</p>
+<a href="task_3.html">next >></a>
+</body>
+</html>
